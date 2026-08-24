@@ -1,6 +1,9 @@
-# 📊 Materiality
-**A bilingual (EN/AR) ACCA Audit & Assurance companion**
-AA & AAA syllabus notes, ISA quick-reference, and mock exams.
+📊 "Materiality" 
+Your ideal companion on the auditing journey: A comprehensive, bilingual (English/Arabic) study and revision guide tailored specifically for ACCA candidates. 
+📘 Core Content: 
+A summary of the syllabi for the AA (Audit and Assurance) and AAA (Advanced Audit and Assurance) papers.
+ ⚡ Key Tools: 
+A reference summary of International Standards on Auditing (ISAs) and mock tests that simulate actual exam standards.
 🔗 **[Read the book online](https://romakhedr.github.io/Materiality/)**
 ---
 ## 📥 Download
