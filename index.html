@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MATERIALITY — ACCA AA & AAA | دليل التدقيق الشامل</title>
-    <"rel="stylesheet">
     <style>
         :root {
             --primary-color: #1e1b4b;
@@ -18,7 +17,7 @@
         }
 
         body {
-            font-family: 'Cairo', 'Inter', sans-serif;
+            font-family: system-ui, -apple-system, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
             background-color: var(--bg-color);
             color: var(--text-main);
             margin: 0;
@@ -27,7 +26,7 @@
         }
 
         .container {
-            max-width: 900px;
+            max-width: 950px;
             margin: 40px auto;
             background: var(--card-bg);
             border-radius: 12px;
@@ -69,26 +68,21 @@
             padding: 15px;
             background: #f1f5f9;
             border-bottom: 1px solid var(--border-color);
-        }
-
-        .lang-switch button {
-            background: var(--primary-color);
-            color: white;
-            border: none;
-            padding: 8px 16px;
-            border-radius: 6px;
-            cursor: pointer;
-            font-family: 'Cairo', sans-serif;
             font-weight: 600;
-            transition: background 0.3s;
-        }
-
-        .lang-switch button:hover {
-            background: var(--secondary-color);
+            color: var(--text-heading);
         }
 
         .content-section {
             padding: 30px 40px;
+        }
+
+        h2.part-title {
+            background: var(--primary-color);
+            color: white;
+            padding: 12px 20px;
+            border-radius: 8px;
+            margin-top: 40px;
+            font-size: 1.3rem;
         }
 
         h3.section-title {
@@ -96,7 +90,7 @@
             border-bottom: 2px solid var(--secondary-color);
             padding-bottom: 8px;
             margin-top: 30px;
-            font-size: 1.4rem;
+            font-size: 1.2rem;
         }
 
         .topic-box {
@@ -111,7 +105,7 @@
         .topic-box h4 {
             margin: 0 0 10px 0;
             color: var(--text-heading);
-            font-size: 1.15rem;
+            font-size: 1.1rem;
         }
 
         .bilingual-text {
@@ -127,7 +121,6 @@
             border-left: 2px solid var(--border-color);
             padding-left: 15px;
             color: #475569;
-            font-family: 'Inter', sans-serif;
         }
 
         .ar-col {
@@ -138,6 +131,8 @@
 
         ul {
             padding-right: 20px;
+            padding-left: 0;
+            margin: 5px 0;
         }
 
         footer {
@@ -180,38 +175,39 @@
             <p>Bilingual Study Notes · Key ISA Reference · Mock Exams</p>
         </header>
 
-        <!-- زر تبديل اللغة أو التحكم -->
         <div class="lang-switch">
-            <span style="font-weight: 600; color: var(--text-heading);">إصدار ثنائي اللغة (عربي / إنجليزي) مطابق لمحتوى المنهج</span>
+            <span>إصدار ثنائي اللغة (عربي / إنجليزي) متطابق تماماً للمنهج الدراسي</span>
         </div>
 
-        <!-- المحتوى الرئيسي -->
         <div class="content-section">
             
-            <!-- كيفية استخدام الكتاب -->
+            <!-- مقدمة الكتاب -->
             <h3 class="section-title">How to Use This Book / كيفية استخدام هذا الكتاب</h3>
             <div class="topic-box">
                 <div class="bilingual-text">
                     <div class="en-col">
-                        <p>This guide condenses the ACCA Audit and Assurance (AA) and Advanced Audit and Assurance (AAA) syllabuses into short, exam-focused notes. Each topic is explained in plain English with an Arabic translation beside it.</p>
+                        <p>This guide condenses the ACCA Audit and Assurance (AA) and Advanced Audit and Assurance (AAA) syllabuses into short, exam-focused notes[cite: 4]. AA covers fundamentals, while AAA builds on complex scenarios[cite: 4].</p>
                     </div>
                     <div class="ar-col">
-                        <p>يقدم هذا الدليل ملخصاً مركزاً لمنهجي مادتي التدقيق والضمان (AA) والتدقيق المتقدم والضمان (AAA) في ACCA بأسلوب مبسط موجّه نحو الامتحان، مع ترجمة عربية بجانبه لتسهيل الفهم.</p>
+                        <p>يقدم هذا الدليل ملخصاً مركزاً لمنهجي التدقيق (AA) والتدقيق المتقدم (AAA) بأسلوب مبسط موجّه نحو الامتحان. مادة AA تغطي الأساسيات، بينما تبني AAA على سيناريوهات أكثر تعقيداً[cite: 4].</p>
                     </div>
                 </div>
             </div>
 
-            <!-- القسم الأول: AA -->
-            <h3 class="section-title">PART ONE: AA — Audit and Assurance / الجزء الأول: تدقيق وضمان (AA)</h3>
+            <!-- ================= PART ONE: AA ================= -->
+            <h2 class="part-title">PART ONE: AA — Audit and Assurance / الجزء الأول: تدقيق وضمان (AA)</h2>
+
+            <!-- Section A -->
+            <h3 class="section-title">Section A: Audit Framework and Regulation / القسم أ: إطار وتنظيم التدقيق</h3>
             
             <div class="topic-box">
                 <h4>1. What Is an Audit? / ما هو التدقيق؟</h4>
                 <div class="bilingual-text">
                     <div class="en-col">
-                        <p>An audit is an independent examination of financial statements that allows the auditor to express an opinion on whether they give a true and fair view in accordance with an identified financial reporting framework.</p>
+                        <p>An audit is an independent examination of financial statements to express an opinion on whether they give a true and fair view[cite: 4].</p>
                     </div>
                     <div class="ar-col">
-                        <p>التدقيق هو فحص مستقل للقوائم المالية يمكن المدقق من إبداء رأي حول ما إذا كانت هذه القوائم تعبر بصدق وعدالة وفقاً لإطار إعداد تقارير مالية محدد[cite: 4].</p>
+                        <p>فحص مستقل للقوائم المالية لإبداء رأي حول ما إذا كانت تعبر بصدق وعدالة وفقاً لإطار الإعداد[cite: 4].</p>
                     </div>
                 </div>
             </div>
@@ -220,55 +216,82 @@
                 <h4>2. Levels of Assurance / مستويات الضمان</h4>
                 <div class="bilingual-text">
                     <div class="en-col">
-                        <ul>
-                            <li><strong>Reasonable assurance:</strong> External audit; high but not absolute confidence.</li>
-                            <li><strong>Limited assurance:</strong> Review engagements; lower level of work, negative expression.</li>
-                        </ul>
+                        <p><strong>Reasonable assurance:</strong> External audit, high confidence. <strong>Limited assurance:</strong> Review engagements, negative expression[cite: 4].</p>
                     </div>
                     <div class="ar-col">
-                        <ul>
-                            <li><strong>ضمان معقول:</strong> تدقيق خارجي؛ ثقة عالية لكنها ليست مطلقة[cite: 4].</li>
-                            <li><strong>ضمان محدود:</strong> عمليات مراجعة؛ عمل أقل عمقاً ويُصاغ الرأي بشكل سلبي[cite: 4].</li>
-                        </ul>
+                        <p><strong>ضمان معقول:</strong> تدقيق خارجي بثقة عالية. <strong>ضمان محدود:</strong> مراجعة بصياغة سلبية[cite: 4].</p>
                     </div>
                 </div>
             </div>
 
             <div class="topic-box">
-                <h4>5. Professional Ethics - IESBA Code / الأخلاقيات المهنية - مدونة IESBA</h4>
+                <h4>5. Professional Ethics - IESBA Code / الأخلاقيات المهنية</h4>
                 <div class="bilingual-text">
                     <div class="en-col">
-                        <p>Five fundamental principles: Integrity, Objectivity, Professional competence and due care, Confidentiality, and Professional behaviour[cite: 4].</p>
+                        <p>Five fundamental principles: Integrity, Objectivity, Professional competence and due care, Confidentiality, and Professional behaviour[cite: 4]. Threats include self-interest, self-review, advocacy, familiarity, and intimidation[cite: 4].</p>
                     </div>
                     <div class="ar-col">
-                        <p>تحدد المدونة خمسة مبادئ أساسية: النزاهة، الموضوعية، الكفاءة المهنية والعناية الواجبة، السرية، والسلوك المهني[cite: 4].</p>
+                        <p>المبادئ الخمسة: النزاهة، الموضوعية، الكفاءة والعناية، السرية، والسلوك المهني[cite: 4]. والتهديدات تشمل المصلحة الذاتية، المراجعة الذاتية، المناصرة، الألفة، والترهيب[cite: 4].</p>
                     </div>
                 </div>
             </div>
 
-            <!-- القسم الثاني: AAA -->
-            <h3 class="section-title">PART TWO: AAA — Advanced Audit and Assurance / الجزء الثاني: التدقيق المتقدم (AAA)</h3>
-
+            <!-- Section B -->
+            <h3 class="section-title">Section B: Planning and Risk Assessment / القسم ب: التخطيط وتقييم المخاطر</h3>
             <div class="topic-box">
-                <h4>Quality Management (ISQM 1 & ISQM 2) / إدارة الجودة</h4>
+                <h4>1. Materiality & 2. Audit Risk Model / الأهمية النسبية ونموذج المخاطر</h4>
                 <div class="bilingual-text">
                     <div class="en-col">
-                        <p>ISQM 1 requires firms to design, implement, and operate a system of quality management covering risk assessment, governance, and resources[cite: 4].</p>
+                        <p>Materiality is set for FS as a whole (ISA 320)[cite: 4]. Audit Risk = Inherent Risk × Control Risk × Detection Risk[cite: 4].</p>
                     </div>
                     <div class="ar-col">
-                        <p>يتطلب معيار 1 ISQM من المكاتب تصميم وتنفيذ وتشغيل نظام لإدارة الجودة يشمل تقييم المخاطر والحوكمة والموارد[cite: 4].</p>
+                        <p>تُقدّر الأهمية النسبية للقوائم ككل (معيار 320)[cite: 4]. مخاطر التدقيق = المخاطر الملازمة × مخاطر الرقابة × مخاطر عدم الاكتشاف[cite: 4].</p>
                     </div>
                 </div>
             </div>
 
+            <!-- Section C, D, E for AA -->
+            <h3 class="section-title">Sections C, D & E: Internal Control, Evidence & Reporting / الرقابة، الأدلة، والتقارير</h3>
             <div class="topic-box">
-                <h4>Group Audits (ISA 600) / تدقيق المجموعات</h4>
+                <h4>Key Highlights / أبرز النقاط</h4>
                 <div class="bilingual-text">
                     <div class="en-col">
-                        <p>The group engagement partner is responsible for the group audit opinion, even where component auditors perform work on subsidiaries[cite: 4].</p>
+                        <p>Includes internal control components (ISA 265), sufficient appropriate evidence (ISA 500), sampling (ISA 530), and auditor's report opinions (unmodified, qualified, adverse, disclaimer)[cite: 4].</p>
                     </div>
                     <div class="ar-col">
-                        <p>يتحمل الشريك المسؤول عن تدقيق المجموعة مسؤولية الرأي على مستوى المجموعة، حتى عندما ينفذ مدققو المكونات العمل بأنفسهم[cite: 4].</p>
+                        <p>تشمل مكونات الرقابة (معيار 265)، أدلة التدقيق الملائمة (معيار 500)، أخذ العينات (معيار 530)، وآراء تقرير المدقق (نظري/نظيف، متحفظ، معاكس، امتناع)[cite: 4].</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ================= PART TWO: AAA ================= -->
+            <h2 class="part-title">PART TWO: AAA — Advanced Audit and Assurance / الجزء الثاني: التدقيق المتقدم (AAA)</h2>
+
+            <!-- Section A & B -->
+            <h3 class="section-title">Section A & B: Regulatory Environment & Ethics / البيئة التنظيمية والأخلاقيات</h3>
+            <div class="topic-box">
+                <h4>ISQM 1 & ISQM 2 — Quality Management / إدارة الجودة</h4>
+                <div class="bilingual-text">
+                    <div class="en-col">
+                        <p>Firms must design quality management systems. Scenario-based ethics questions require identifying specific threats and practical safeguards[cite: 4].</p>
+                    </div>
+                    <div class="ar-col">
+                        <p>يجب على المكاتب تصميم أنظمة لإدارة الجودة. أسئلة الأخلاقيات مبنية على سيناريوهات تتطلب تحديد التهديدات وحلول عملية[cite: 4].</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section C, D, E, F, G for AAA -->
+            <h3 class="section-title">Sections C to G: Group Audits, Current Issues & Special Assignments / تدقيق المجموعات والمهام الخاصة</h3>
+            <div class="topic-box">
+                <h4>Advanced Concepts / مفاهيم متقدمة</h4>
+                <div class="bilingual-text">
+                    <div class="en-col">
+                        <p>Covers Group Audits (ISA 600), Auditor's Experts (ISA 620), Prospective Financial Information (ISAE 3400), Due Diligence, Forensic Audits, and ESG / Sustainability reporting[cite: 4].</p>
+                    </div>
+                    <div class="ar-col">
+                        <p>يغطي تدقيق المجموعات (معيار 600)، خبير المدقق (معيار 620)، المعلومات المالية المستقبلية (معيار 3400)، العناية الواجبة، التدقيق الجنائي، وتقارير الاستدامة و ESG[cite: 4].</p>
                     </div>
                 </div>
             </div>
