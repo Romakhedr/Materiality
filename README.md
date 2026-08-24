@@ -4,8 +4,8 @@ AA & AAA syllabus notes, ISA quick-reference, and mock exams.
 
 ---
 ## 📥 Download
-
-*📄 [PDF version](https://raw.githubusercontent.com/Reham-Khedr/Materiality/main/Materiality.pdf) *📝 [Word (.docx) version](https://raw.githubusercontent.com/Reham-Khedr/Materiality/main/Materiality.docx)
+* 📄 [PDF version](https://raw.githubusercontent.com/Reham-Khedr/Materiality/main/Materiality.pdf)
+* 📝 [Word (.docx) version](https://raw.githubusercontent.com/Reham-Khedr/Materiality/main/Materiality.docx)
 ## 📚 What's Inside
 
 - **Part 1 — AA:** Audit and Assurance (Applied Skills)
