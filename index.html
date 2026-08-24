@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATERIALITY — ACCA AA & AAA | دليل التدقيق الشامل</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1e1b4b;
+            --secondary-color: #047857;
+            --accent-color: #312e81;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #334155;
+            --text-heading: #0f172a;
+            --border-color: #e2e8f0;
+        }
+
+        body {
+            font-family: 'Cairo', 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+        }
+
+        header {
+            background: var(--primary-color);
+            color: #ffffff;
+            text-align: center;
+            padding: 40px 20px;
+            border-bottom: 5px solid var(--secondary-color);
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin: 0 0 10px 0;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        header h2 {
+            font-size: 1.25rem;
+            margin: 0 0 15px 0;
+            color: #cbd5e1;
+            font-weight: 600;
+        }
+
+        header p {
+            font-size: 1rem;
+            color: #94a3b8;
+            margin: 0;
+        }
+
+        .lang-switch {
+            text-align: center;
+            padding: 15px;
+            background: #f1f5f9;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .lang-switch button {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: 'Cairo', sans-serif;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .lang-switch button:hover {
+            background: var(--secondary-color);
+        }
+
+        .content-section {
+            padding: 30px 40px;
+        }
+
+        h3.section-title {
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 8px;
+            margin-top: 30px;
+            font-size: 1.4rem;
+        }
+
+        .topic-box {
+            background: #f8fafc;
+            border-right: 4px solid var(--secondary-color);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+        }
+
+        .topic-box h4 {
+            margin: 0 0 10px 0;
+            color: var(--text-heading);
+            font-size: 1.15rem;
+        }
+
+        .bilingual-text {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        .en-col {
+            direction: ltr;
+            text-align: left;
+            border-left: 2px solid var(--border-color);
+            padding-left: 15px;
+            color: #475569;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .ar-col {
+            direction: rtl;
+            text-align: right;
+            color: var(--text-main);
+        }
+
+        ul {
+            padding-right: 20px;
+        }
+
+        footer {
+            background: var(--primary-color);
+            color: #ffffff;
+            text-align: center;
+            padding: 25px;
+            font-size: 0.95rem;
+            border-top: 3px solid var(--secondary-color);
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        @media (max-width: 768px) {
+            .bilingual-text {
+                grid-template-columns: 1fr;
+                gap: 10px;
+            }
+            .en-col {
+                border-left: none;
+                border-top: 2px solid var(--border-color);
+                padding-left: 0;
+                padding-top: 10px;
+            }
+            .container {
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- رأس الصفحة -->
+        <header>
+            <h1>MATERIALITY — ACCA AA & AAA</h1>
+            <h2>الأهمية النسبية | دليل التدقيق الشامل</h2>
+            <p>Bilingual Study Notes · Key ISA Reference · Mock Exams</p>
+        </header>
+
+        <!-- زر تبديل اللغة أو التحكم -->
+        <div class="lang-switch">
+            <span style="font-weight: 600; color: var(--text-heading);">إصدار ثنائي اللغة (عربي / إنجليزي) مطابق لمحتوى المنهج</span>
+        </div>
+
+        <!-- المحتوى الرئيسي -->
+        <div class="content-section">
+            
+            <!-- كيفية استخدام الكتاب -->
+            <h3 class="section-title">How to Use This Book / كيفية استخدام هذا الكتاب</h3>
+            <div class="topic-box">
+                <div class="bilingual-text">
+                    <div class="en-col">
+                        <p>This guide condenses the ACCA Audit and Assurance (AA) and Advanced Audit and Assurance (AAA) syllabuses into short, exam-focused notes. Each topic is explained in plain English with an Arabic translation beside it.</p>
+                    </div>
+                    <div class="ar-col">
+                        <p>يقدم هذا الدليل ملخصاً مركزاً لمنهجي مادتي التدقيق والضمان (AA) والتدقيق المتقدم والضمان (AAA) في ACCA بأسلوب مبسط موجّه نحو الامتحان، مع ترجمة عربية بجانبه لتسهيل الفهم.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- القسم الأول: AA -->
+            <h3 class="section-title">PART ONE: AA — Audit and Assurance / الجزء الأول: تدقيق وضمان (AA)</h3>
+            
+            <div class="topic-box">
+                <h4>1. What Is an Audit? / ما هو التدقيق؟</h4>
+                <div class="bilingual-text">
+                    <div class="en-col">
+                        <p>An audit is an independent examination of financial statements that allows the auditor to express an opinion on whether they give a true and fair view in accordance with an identified financial reporting framework.</p>
+                    </div>
+                    <div class="ar-col">
+                        <p>التدقيق هو فحص مستقل للقوائم المالية يمكن المدقق من إبداء رأي حول ما إذا كانت هذه القوائم تعبر بصدق وعدالة وفقاً لإطار إعداد تقارير مالية محدد[cite: 4].</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="topic-box">
+                <h4>2. Levels of Assurance / مستويات الضمان</h4>
+                <div class="bilingual-text">
+                    <div class="en-col">
+                        <ul>
+                            <li><strong>Reasonable assurance:</strong> External audit; high but not absolute confidence.</li>
+                            <li><strong>Limited assurance:</strong> Review engagements; lower level of work, negative expression.</li>
+                        </ul>
+                    </div>
+                    <div class="ar-col">
+                        <ul>
+                            <li><strong>ضمان معقول:</strong> تدقيق خارجي؛ ثقة عالية لكنها ليست مطلقة[cite: 4].</li>
+                            <li><strong>ضمان محدود:</strong> عمليات مراجعة؛ عمل أقل عمقاً ويُصاغ الرأي بشكل سلبي[cite: 4].</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="topic-box">
+                <h4>5. Professional Ethics - IESBA Code / الأخلاقيات المهنية - مدونة IESBA</h4>
+                <div class="bilingual-text">
+                    <div class="en-col">
+                        <p>Five fundamental principles: Integrity, Objectivity, Professional competence and due care, Confidentiality, and Professional behaviour[cite: 4].</p>
+                    </div>
+                    <div class="ar-col">
+                        <p>تحدد المدونة خمسة مبادئ أساسية: النزاهة، الموضوعية، الكفاءة المهنية والعناية الواجبة، السرية، والسلوك المهني[cite: 4].</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- القسم الثاني: AAA -->
+            <h3 class="section-title">PART TWO: AAA — Advanced Audit and Assurance / الجزء الثاني: التدقيق المتقدم (AAA)</h3>
+
+            <div class="topic-box">
+                <h4>Quality Management (ISQM 1 & ISQM 2) / إدارة الجودة</h4>
+                <div class="bilingual-text">
+                    <div class="en-col">
+                        <p>ISQM 1 requires firms to design, implement, and operate a system of quality management covering risk assessment, governance, and resources[cite: 4].</p>
+                    </div>
+                    <div class="ar-col">
+                        <p>يتطلب معيار 1 ISQM من المكاتب تصميم وتنفيذ وتشغيل نظام لإدارة الجودة يشمل تقييم المخاطر والحوكمة والموارد[cite: 4].</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="topic-box">
+                <h4>Group Audits (ISA 600) / تدقيق المجموعات</h4>
+                <div class="bilingual-text">
+                    <div class="en-col">
+                        <p>The group engagement partner is responsible for the group audit opinion, even where component auditors perform work on subsidiaries[cite: 4].</p>
+                    </div>
+                    <div class="ar-col">
+                        <p>يتحمل الشريك المسؤول عن تدقيق المجموعة مسؤولية الرأي على مستوى المجموعة، حتى عندما ينفذ مدققو المكونات العمل بأنفسهم[cite: 4].</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- تذييل الصفحة -->
+        <footer>
+            <p>صمم هذا الكتاب للتعلم والتطوير والمساعدة في اجتياز الاختبارات الدراسية والمهنية[cite: 4].</p>
+            <p style="color: #cbd5e1; font-weight: 600;">Built with passion by Reham Hamdy Elsayed Khedr[cite: 4]</p>
+        </footer>
+    </div>
+
+</body>
+</html>
